@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import Containers from './components/Container'
+import { university} from './redux/universitySlice'
+import { country } from './redux/countrySlice'
 
-function App() {
+const App = () => {
+  const {cahngeCountry} = useSelector((state)=> state.dataUniver)
+  const dispatch = useDispatch()
+
+  useEffect(()=>{
+ dispatch(university(cahngeCountry))
+
+  },[cahngeCountry])
+  useEffect(()=>{
+ 
+    dispatch(country())
+     },[])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Containers/>
+    <div className='p-5 text-center bg-dark text-white mt-4'>
+    created by Omar Ali  
     </div>
-  );
+    </div>
+  )
 }
 
-export default App;
+export default App
