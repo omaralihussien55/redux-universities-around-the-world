@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/redux-universities-around-the-world/static/css/main.4c54201d.css",
-    "main.js": "/redux-universities-around-the-world/static/js/main.d9b49fba.js",
+    "main.js": "/redux-universities-around-the-world/static/js/main.11bdb560.js",
     "static/js/787.8fd2d5ed.chunk.js": "/redux-universities-around-the-world/static/js/787.8fd2d5ed.chunk.js",
     "index.html": "/redux-universities-around-the-world/index.html",
     "main.4c54201d.css.map": "/redux-universities-around-the-world/static/css/main.4c54201d.css.map",
-    "main.d9b49fba.js.map": "/redux-universities-around-the-world/static/js/main.d9b49fba.js.map",
+    "main.11bdb560.js.map": "/redux-universities-around-the-world/static/js/main.11bdb560.js.map",
     "787.8fd2d5ed.chunk.js.map": "/redux-universities-around-the-world/static/js/787.8fd2d5ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c54201d.css",
-    "static/js/main.d9b49fba.js"
+    "static/js/main.11bdb560.js"
   ]
 }
